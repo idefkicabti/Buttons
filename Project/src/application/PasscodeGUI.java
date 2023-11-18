@@ -43,7 +43,8 @@ public class PasscodeGUI extends Application {
 
                 // Create a MediaPlayer object
                 mediaPlayer = new MediaPlayer(media);
-            } else {
+            } 
+	    else {
                 messageLabel.setText("Incorrect.");
             }
         });
