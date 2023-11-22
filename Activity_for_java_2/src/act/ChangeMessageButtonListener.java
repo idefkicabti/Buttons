@@ -15,6 +15,7 @@ public class ChangeMessageButtonListener implements ActionListener{
     // This method is called whenever the event occurs (in this case, when the button is clicked)
     @Override
     public void actionPerformed(ActionEvent e) {
+	// When the button is clicked, the text of the JLabel is changed to "Message Changed!"
         label.setText("Message Changed!");
     }
 }
